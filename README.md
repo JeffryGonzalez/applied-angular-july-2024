@@ -1,4 +1,4 @@
-# Applied Angular Starter Project
+# Angular Starter Project
 
 This project has an Angular application created in the `frontend` directory.
 
@@ -9,7 +9,6 @@ ng new frontend --skip-git --skip-tests -t -s
 ```
 
 A little bit of work has been done to it aside from the `ng new` command.
-
 
 ## Pre-Class Setup On This Project
 
@@ -25,7 +24,7 @@ I initialized the Tailwind configuration for this. Again, details are in the cou
 
 ### `.npmrc`
 
-I added an `.nprmc` so that `--legacy-peer-deps` are allowed. This is probably not a good idea for "real", "production" code, **but**, at the time of this writing some of the libraries we will explore haven't been updated to Angular 18 yet. 
+I added an `.nprmc` so that `--legacy-peer-deps` are allowed. This is probably not a good idea for "real", "production" code, **but**, at the time of this writing some of the libraries we will explore haven't been updated to Angular 18 yet.
 
 ## Starting the Application
 
@@ -34,4 +33,3 @@ Go to the directory where this file lives and type:
 ```shell
 just code
 ```
-
